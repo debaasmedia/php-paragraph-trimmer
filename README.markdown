@@ -1,0 +1,1 @@
+Class that helps rendering one or more paragraphs within a predefined number of characters. If the paragraph extends the maximum number of characters it will render the configured read more indicator.
