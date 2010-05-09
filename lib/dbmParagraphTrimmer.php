@@ -41,7 +41,7 @@
      * @param   String  $arg_indicator          The text used to indicate that
      *                                          there is more to read
      *
-     * @return  void//&#8230;
+     * @return  void
      */
     public function __construct ($arg_contents, $arg_maximumCharacters = 240, $arg_indicator = "&gt;")
     {
