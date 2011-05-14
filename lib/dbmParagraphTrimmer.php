@@ -45,7 +45,7 @@
      */
     public function __construct ($arg_contents, $arg_maximumCharacters = 240, $arg_indicator = "&gt;")
     {
-      $this->_contents          = $arg_contents;
+      $this->_contents          = (string) $arg_contents;
       $this->_maximumCharacters = $arg_maximumCharacters;
       $this->_indicator         = $arg_indicator;
     }
